@@ -32,6 +32,15 @@ a.u-marquee-box-title { display: inline; }
 /*** END COLORS ***/
 
 /*** FONTS ***/
+@font-face {
+	font-family: "Bauhaus 93";
+	src: url("../../assets/fonts/BAUHS93.TTF");
+}
+@font-face {
+	font-family: "Impact";
+	src: url("../../assets/fonts/impact.ttf");
+}
+
 .u-marquee-box-title,
 .u-paragraph-main { font-family: "Bauhaus 93";}
 .u-paragraph-text { font-family: Impact; }
