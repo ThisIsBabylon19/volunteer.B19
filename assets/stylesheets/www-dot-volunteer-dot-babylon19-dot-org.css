@@ -3,7 +3,7 @@
 /*** END RESET ***/
 
 /*** CANCEL ***/
-body { overflow-x: hidden; }
+body, html { overflow-x: hidden !important; }
 a.u-marquee-box-title { display: inline; }
 /*** END CANCEL ***/
 
@@ -162,6 +162,8 @@ a.u-marquee-box-title { display: inline; }
 
 	.u-marquee-box-title { line-height: 1.5em; }
 	.u-paragraph-text { line-height: 2em; }
+
+	.u-link br { display: none; }
 }
 /*** END MEDIA QUERIES ***/
 
