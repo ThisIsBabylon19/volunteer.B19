@@ -207,12 +207,14 @@ a.u-marquee-box-title { display: inline; }
 }
 /*** END ANIMATIONS ***/
 
-/*** TO DELETE ***/
+/*** CSS ***/
 body, html {
 	width: 100%; height: 100%;
 	position: relative;
 }
+/*** END HACKS ***/
+
+/*** TO DELETE ***/
 .hashtags-hash-content,
 .u-marquee-box-decoration { display: none !important; }
-* { border: 1px solid purple; }
 /*** TO DELETE ***/
