@@ -45,7 +45,7 @@ a.u-marquee-box-title { display: inline; }
 .u-paragraph-main { font-family: "Bauhaus 93";}
 .u-paragraph-text { font-family: Impact; }
 
-.u-paragraph-text { word-spacing: .25em; }
+.u-paragraph-text { word-spacing: .125em; }
 
 .u-paragraph.is-variant_left { text-align: left; }
 .u-paragraph.is-variant_center { text-align: center; }
