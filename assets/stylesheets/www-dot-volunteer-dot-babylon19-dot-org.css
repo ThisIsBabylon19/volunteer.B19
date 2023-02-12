@@ -208,6 +208,11 @@ a.u-marquee-box-title { display: inline; }
 /*** END ANIMATIONS ***/
 
 /*** TO DELETE ***/
+body, html {
+	width: 100%; height: 100%;
+	position: relative;
+}
 .hashtags-hash-content,
 .u-marquee-box-decoration { display: none !important; }
+* { border: 1px solid purple; }
 /*** TO DELETE ***/
