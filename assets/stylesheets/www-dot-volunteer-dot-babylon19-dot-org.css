@@ -148,7 +148,7 @@ a.u-marquee-box-title { display: inline; }
 
 /*** MEDIA QUERIES ***/
 @media screen and (max-width: 50em) {
-	.u-marquee-box-title,
+	.u-marquee-box-title { font-size: 3em; }
 	.u-paragraph-main { font-size: 2em; }
 	.u-paragraph-text { font-size: 1em; }
 
@@ -156,8 +156,8 @@ a.u-marquee-box-title { display: inline; }
 	.u-paragraph-text { line-height: 2.5em; }
 }
 @media screen and (min-width: 50em) {
-	.u-marquee-box-title,
-	.u-paragraph-main { font-size: 5em; }
+	.u-marquee-box-title { font-size: 5em; }
+	.u-paragraph-main { font-size: 3.5em; }
 	.u-paragraph-text { font-size: 1.5em; }
 
 	.u-marquee-box-title { line-height: 1.5em; }
